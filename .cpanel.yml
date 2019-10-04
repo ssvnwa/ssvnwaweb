@@ -48,32 +48,13 @@ deployment:
     - /usr/bin/mkdir $DEPLOYPATH/assets/bootstrap/css
     - /usr/bin/cp    ./assets/bootstrap/css/bootstrap.min.css $DEPLOYPATH/assets/bootstrap/css
     - /usr/bin/mkdir $DEPLOYPATH/assets/css
-    - /usr/bin/cp    ./assets/css/materialdesignicons.css              $DEPLOYPATH/assets/css
-    - /usr/bin/cp    ./assets/css/materialdesignicons.min.css.map      $DEPLOYPATH/assets/css
-    - /usr/bin/cp    ./assets/css/materialdesignicons.min.css.map      $DEPLOYPATH/assets/css
-    - /usr/bin/cp    ./assets/css/materialdesignicons.min.css          $DEPLOYPATH/assets/css
-    - /usr/bin/cp    ./assets/css/materialdesignicons.css.map          $DEPLOYPATH/assets/css
+    - /usr/bin/cp    ./assets/css/*                                    $DEPLOYPATH/assets/css
     - /usr/bin/mkdir $DEPLOYPATH/assets/fonts
-    - /usr/bin/cp    ./assets/fonts/materialdesignicons-webfont.svg    $DEPLOYPATH/assets/fonts
-    - /usr/bin/cp    ./assets/fonts/materialdesignicons-webfont.woff   $DEPLOYPATH/assets/fonts
-    - /usr/bin/cp    ./assets/fonts/materialdesignicons-webfont.ttf    $DEPLOYPATH/assets/fonts
-    - /usr/bin/cp    ./assets/fonts/materialdesignicons-webfont.woff2  $DEPLOYPATH/assets/fonts 
-    - /usr/bin/cp    ./assets/fonts/materialdesignicons-webfont.eot    $DEPLOYPATH/assets/fonts    
-    - /usr/bin/mkdir                                                   $DEPLOYPATH/assets/images
-    - /usr/bin/cp    ./assets/images                                   $DEPLOYPATH/assets/images
-    - /usr/bin/cp    ./assets/images/apple-touch-icon.png              $DEPLOYPATH/assets/images               
-    - /usr/bin/cp    ./assets/images/favicon.ico                       $DEPLOYPATH/assets/images      
-    - /usr/bin/cp    ./assets/images/musician                          $DEPLOYPATH/assets/images    
-    - /usr/bin/cp    ./assets/images/musician/LICENSE                  $DEPLOYPATH/assets/images
-    - /usr/bin/cp    ./assets/images/musician/background.jpg           $DEPLOYPATH/assets/images  
-    - /usr/bin/mkdir                                                   $DEPLOYPATH/assets/img
-    - /usr/bin/cp    ./assets/img/SSVNWALogo.jpg                       $DEPLOYPATH/assets/img
-    - /usr/bin/cp    ./assets/img/lockitup.jpg                         $DEPLOYPATH/assets/img 
-    - /usr/bin/cp    ./assets/img/acoustic-guitars.jpg                 $DEPLOYPATH/assets/img 
-    - /usr/bin/cp    ./assets/img/AcousticTune.jpg                     $DEPLOYPATH/assets/img 
-    - /usr/bin/cp    ./assets/img/SongBook.jpg                         $DEPLOYPATH/assets/img 
-    - /usr/bin/cp    ./assets/img/SSVLogo.png                          $DEPLOYPATH/assets/img 
-    - /usr/bin/cp    ./assets/img/SSVNWALogo.png                       $DEPLOYPATH/assets/img  
-    - /usr/bin/mkdir                                                   $DEPLOYPATH/assets/js
-    - /usr/bin/cp    ./assets/js/script.min.js                         $DEPLOYPATH/assets/js 
+    - /usr/bin/cp    ./assets/fonts/* $DEPLOYPATH/assets/fonts
+    - /usr/bin/mkdir $DEPLOYPATH/assets/images
+    - /usr/bin/cp    ./assets/images/*  $DEPLOYPATH/assets/images               
+    - /usr/bin/mkdir $DEPLOYPATH/assets/img
+    - /usr/bin/cp    ./assets/img/* $DEPLOYPATH/assets/img
+    - /usr/bin/mkdir $DEPLOYPATH/assets/js
+    - /usr/bin/cp    ./assets/js/script.min.js $DEPLOYPATH/assets/js 
     
