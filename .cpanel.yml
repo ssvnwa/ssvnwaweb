@@ -2,4 +2,78 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/asoldier/public_html/stage
-    - /usr/bin/cp test.html $DEPLOYPATH
+    - /usr/bin/cp    ./jquery.validate.min.js $DEPLOYPATH
+    - /usr/bin/cp    ./Members.cshtml $DEPLOYPATH
+    - /usr/bin/cp    ./jquery.validate.unobtrusive.js     $DEPLOYPATH 
+    - /usr/bin/cp    ./index.php                          $DEPLOYPATH     
+    - /usr/bin/cp    ./bootstrap.js                       $DEPLOYPATH    
+    - /usr/bin/cp    ./register.php                       $DEPLOYPATH    
+    - /usr/bin/cp    ./sponsors.php                       $DEPLOYPATH    
+    - /usr/bin/cp    ./jquery.validate.js                 $DEPLOYPATH    
+    - /usr/bin/cp    ./Services.cshtml                    $DEPLOYPATH    
+    - /usr/bin/cp    ./jquery-3.3.1.min.js                $DEPLOYPATH    
+    - /usr/bin/cp    ./verify.php                         $DEPLOYPATH    
+    - /usr/bin/cp    ./About.cshtml                       $DEPLOYPATH    
+    - /usr/bin/cp    ./reset_password.php                 $DEPLOYPATH    
+    - /usr/bin/cp    ./test.html                          $DEPLOYPATH    
+    - /usr/bin/cp    ./jquery-3.3.1.slim.min.map          $DEPLOYPATH    
+    - /usr/bin/cp    ./jquery-3.3.1.slim.js               $DEPLOYPATH    
+    - /usr/bin/cp    ./about.php                          $DEPLOYPATH    
+    - /usr/bin/cp    ./privacy.php                        $DEPLOYPATH 
+    - /usr/bin/cp    ./README.md                          $DEPLOYPATH 
+    - /usr/bin/cp    ./layout_foot.php                    $DEPLOYPATH 
+    - /usr/bin/cp    ./jquery-3.3.1.js                    $DEPLOYPATH 
+    - /usr/bin/cp    ./modernizr-2.8.3.js                 $DEPLOYPATH 
+    - /usr/bin/cp    ./navigation.php                     $DEPLOYPATH 
+    - /usr/bin/cp    ./Contact.cshtml                     $DEPLOYPATH 
+    - /usr/bin/cp    ./contact.php                        $DEPLOYPATH 
+    - /usr/bin/cp    ./bootstrap.min.js                   $DEPLOYPATH 
+    - /usr/bin/cp    ./jquery-3.3.1.slim.min.js           $DEPLOYPATH 
+    - /usr/bin/cp    ./login_checker.php                  $DEPLOYPATH
+    - /usr/bin/cp    ./Index.cshtml                       $DEPLOYPATH
+    - /usr/bin/cp    ./jquery.validate.unobtrusive.min.js $DEPLOYPATH
+    - /usr/bin/cp    ./board.php                          $DEPLOYPATH
+    - /usr/bin/cp    ./layout_head.php                    $DEPLOYPATH
+    - /usr/bin/cp    ./terms.php                          $DEPLOYPATH
+    - /usr/bin/cp    ./logout.php                         $DEPLOYPATH
+    - /usr/bin/cp    ./services.php                       $DEPLOYPATH
+    - /usr/bin/cp    ./contactex.php                      $DEPLOYPATH
+    - /usr/bin/cp    ./jquery-3.3.1.min.map               $DEPLOYPATH
+    - /usr/bin/cp    ./Privacy.cshtml                     $DEPLOYPATH
+    - /usr/bin/mkdir $DEPLOYPATH/assets
+    - /usr/bin/cp    ./assets/config.js  $DEPLOYPATH/assets
+    - /usr/bin/cp    ./assets/core.css   $DEPLOYPATH/assets
+    - /usr/bin/cp    ./assets/cpanel.css $DEPLOYPATH/assets
+    - /usr/bin/mkdir $DEPLOYPATH/assets/bootstrap
+    - /usr/bin/mkdir $DEPLOYPATH/assets/bootstrap/css
+    - /usr/bin/cp    ./assets/bootstrap/css/bootstrap.min.css $DEPLOYPATH/assets/bootstrap/css
+    - /usr/bin/mkdir $DEPLOYPATH/assets/css
+    - /usr/bin/cp    ./assets/css/materialdesignicons.css              $DEPLOYPATH/assets/css
+    - /usr/bin/cp    ./assets/css/materialdesignicons.min.css.map      $DEPLOYPATH/assets/css
+    - /usr/bin/cp    ./assets/css/materialdesignicons.min.css.map      $DEPLOYPATH/assets/css
+    - /usr/bin/cp    ./assets/css/materialdesignicons.min.css          $DEPLOYPATH/assets/css
+    - /usr/bin/cp    ./assets/css/materialdesignicons.css.map          $DEPLOYPATH/assets/css
+    - /usr/bin/mkdir $DEPLOYPATH/assets/fonts
+    - /usr/bin/cp    ./assets/fonts/materialdesignicons-webfont.svg    $DEPLOYPATH/assets/fonts
+    - /usr/bin/cp    ./assets/fonts/materialdesignicons-webfont.woff   $DEPLOYPATH/assets/fonts
+    - /usr/bin/cp    ./assets/fonts/materialdesignicons-webfont.ttf    $DEPLOYPATH/assets/fonts
+    - /usr/bin/cp    ./assets/fonts/materialdesignicons-webfont.woff2  $DEPLOYPATH/assets/fonts 
+    - /usr/bin/cp    ./assets/fonts/materialdesignicons-webfont.eot    $DEPLOYPATH/assets/fonts    
+    - /usr/bin/mkdir $DEPLOYPATH/assets/images
+    - /usr/bin/cp    ./assets/images                                   $DEPLOYPATH/assets/images
+    - /usr/bin/cp    ./assets/images/apple-touch-icon.png              $DEPLOYPATH/assets/images               
+    - /usr/bin/cp    ./assets/images/favicon.ico                       $DEPLOYPATH/assets/images      
+    - /usr/bin/cp    ./assets/images/musician                          $DEPLOYPATH/assets/images    
+    - /usr/bin/cp    ./assets/images/musician/LICENSE                  $DEPLOYPATH/assets/images
+    - /usr/bin/cp    ./assets/images/musician/background.jpg           $DEPLOYPATH/assets/images  
+    - /usr/bin/mkdir $DEPLOYPATH/assets/img
+    - /usr/bin/cp    ./assets/img/SSVNWALogo.jpg                       $DEPLOYPATH/assets/img
+    - /usr/bin/cp    ./assets/img/lockitup.jpg                         $DEPLOYPATH/assets/img 
+    - /usr/bin/cp    ./assets/img/acoustic-guitars.jpg                 $DEPLOYPATH/assets/img 
+    - /usr/bin/cp    ./assets/img/AcousticTune.jpg                     $DEPLOYPATH/assets/img 
+    - /usr/bin/cp    ./assets/img/SongBook.jpg                         $DEPLOYPATH/assets/img 
+    - /usr/bin/cp    ./assets/img/SSVLogo.png                          $DEPLOYPATH/assets/img 
+    - /usr/bin/cp    ./assets/img/SSVNWALogo.png                       $DEPLOYPATH/assets/img  
+    - /usr/bin/mkdir $DEPLOYPATH/assets/js
+    - /usr/bin/cp    ./assets/js/script.min.js                         $DEPLOYPATH/assets/js 
+    
