@@ -11,8 +11,8 @@ $require_login=false;
 // include page header HTML
 include_once 'layout_head.php';
 // content 
-echo "<!-- Start: Benefactors -->\n";
-echo "<section id='benefactors'  style='background-color: #0a0a0a;background-center: round;opacity: 0.94;background-position: center;background-repeat: no-repeat;background-image: url(&quot;assets/img/acoustic-guitars.jpg&quot;);'>\n";
+echo "<!-- Start: Sponsors -->\n";
+echo "<section id='sponsors'  style='background-color: #0a0a0a;background-center: round;opacity: 0.94;background-position: center;background-repeat: no-repeat;background-image: url(&quot;assets/img/acoustic-guitars.jpg&quot;);'>\n";
 echo "   <div class='container' style='color: rgb(24,25,25);'>\n";
 echo "      <div class='row'>\n";
 echo "         <div class='col-lg-12 text-center' style='color: rgb(2,3,4);'>\n";
@@ -25,7 +25,7 @@ echo "         </div>\n";
 echo "      </div>\n";
 echo "   </div>\n";
 echo "</section>\n";
+echo "<!-- End: Sponsors -->\n";
 // footer HTML and JavaScript codes
 include 'layout_foot.php';
 ?>
-echo "<!-- End: Benefactors -->\n";

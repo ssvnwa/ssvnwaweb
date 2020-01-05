@@ -45,4 +45,3 @@ echo "<!-- End: #Contact -->\n";
 // footer HTML and JavaScript codes
 include 'layout_foot.php';
 ?>
-echo "<!-- End: Contact -->\n";

@@ -11,7 +11,7 @@ $require_login=false;
 // include page header HTML
 include_once 'layout_head.php';
 // content
-echo "<!-- Start: #Team -->\n";
+echo "<!-- Start: #Board -->\n";
 echo "<section class='py-5' style='background-color: #0a0909;color: rgb(236,241,245);filter: brightness(169%) contrast(109%);opacity: 0.84;'>\n";
 echo "  <div class='container'>\n";
 echo "    <div class='row'>\n";
@@ -27,8 +27,7 @@ echo "       </div>\n";
 echo "    </div>\n";
 echo " </div>\n";
 echo "</section>\n";
-echo "<!-- End: #Team -->\n"; 
+echo "<!-- End: #Board -->\n"; 
 // footer HTML and JavaScript codes
 include 'layout_foot.php';
 ?>
-echo "<!-- End: Benefactors -->\n";

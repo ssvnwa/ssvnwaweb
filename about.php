@@ -27,4 +27,3 @@ echo "<!-- End: About -->\n";
 // footer HTML and JavaScript codes
 include 'layout_foot.php';
 ?>
-echo "<!-- End: Benefactors -->\n";
