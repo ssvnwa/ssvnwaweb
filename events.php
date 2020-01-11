@@ -12,7 +12,7 @@ $require_login=false;
 include_once 'layout_head.php';
 // content 
 echo "<!-- Start: Events -->\n";
-echo "<section id='about' style='background-color: #0a0a0a;background-center: round;opacity: 0.94;background-position: center top;background-repeat: no-repeat;background-image: url(&quot;assets/img/SSVNWALogo.png&quot;);'>\n";
+echo "<section id='about' style='background-color: #0a0a0a;background-center: round;opacity: 0.94;background-position: center top;background-repeat: no-repeat;background-image: url(\"./assets/img/SSVNWALogo.png\");'>\n";
 echo "  <div class='container'>\n";
 echo "    <div class='row'>\n";
 echo "      <div class='col-lg-12 text-center'>\n";

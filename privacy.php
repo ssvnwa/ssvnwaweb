@@ -18,7 +18,7 @@ echo "  <div class='container'>\n";
 echo "    <div class='row'>\n";
 echo "       <div class='col'>\n";
 echo "          <h1 class='text-center' style='color: gold'>Privacy Policy</h1>\n";
-echo "          <img src='/assets/img/lockitup.jpg' alt='Privacy' style='display: block; margin-left: auto; margin-right: auto; height: 30%;' >\n";
+echo "          <img src='./assets/img/lockitup.jpg' alt='Privacy' style='display: block; margin-left: auto; margin-right: auto; height: 30%;' >\n";
 echo "          <p>Soldier Songs and Voices Northwest Arkansas chapter will never release any personal data collected in connection with the operation of our site to anyone at any time or for any reason.</p>\n";
 echo "       </div>\n";
 echo "    </div>\n";

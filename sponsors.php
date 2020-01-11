@@ -12,7 +12,7 @@ $require_login=false;
 include_once 'layout_head.php';
 // content 
 echo "<!-- Start: Sponsors -->\n";
-echo "<section id='sponsors'  style='background-color: #0a0a0a;background-center: round;opacity: 0.94;background-position: center;background-repeat: no-repeat;background-image: url(&quot;assets/img/acoustic-guitars.jpg&quot;);'>\n";
+echo "<section id='sponsors'  style='background-color: #0a0a0a;background-center: round;opacity: 0.94;background-position: center;background-repeat: no-repeat;background-image: url(\"./assets/img/acoustic-guitars.jpg\");'>\n";
 echo "   <div class='container' style='color: rgb(24,25,25);'>\n";
 echo "      <div class='row'>\n";
 echo "         <div class='col-lg-12 text-center' style='color: rgb(2,3,4);'>\n";
