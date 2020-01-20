@@ -95,6 +95,9 @@ echo "          <p><a href='https://scituatecommunitychristmas.org/' target='_bl
 echo "         <p class='text-muted' style='color: #eeebeb;filter: brightness(148%);background-color: #0a0a0a;'>We have a new chapter in Scituate, MA atThe Susan Phippen House. We'll post more info as it comes in </p>\n";
 echo "      </div>\n";
 echo "      <div class='col'>\n";
+echo "         <h3 class='text-uppercase' style='color: rgb(254,209,54);'>Eureka Springs<br>Eureka Unitarian Universalist Church<br>Eureka Springs, AR</h3>\n";
+echo "          <p><a href='https://www.facebook.com/steve.poynter.940/' target='_blank'><img src='./assets/img/EurekaSSV.png' alt='Eureka Unitarian Universalist church' style='width: 40%;'></img></a></p>\n";
+echo "         <p class='text-muted' style='color: #eeebeb;filter: brightness(148%);background-color: #0a0a0a;'>We also have a new chapter nestled in the historic hills of Eureka Springs, AR led by Steve Poynter. The Eureka chapter meets every 3rd Sunday from 2 to 4 pm at the Eureka Unitarian Universalist church 17 Elk St, Eureka Springs, AR 72632.</p>\n";
 echo "      </div>\n";
 echo "    </div>\n";
 echo "    </article>\n";
