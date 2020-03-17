@@ -1,7 +1,7 @@
 ---
 deployment:
  tasks:
-  - export DEPLOYPATH=/home/asoldier/public_html/
+  - export DEPLOYPATH=/home/asoldier/public_html/stage
   - /usr/bin/rm -Rf $DEPLOYPATH
   - /usr/bin/mkdir $DEPLOYPATH
   - /usr/bin/cp -R * $DEPLOYPATH
